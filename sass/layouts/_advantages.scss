@@ -1,0 +1,38 @@
+.advantages-container {
+  max-width: 1600px;
+}
+
+.advantages-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
+  gap: 30px;
+}
+
+.advantages-link {
+  display: block;
+  border: 1px solid #afb1b8;
+  color: #afb1b8;
+  border-radius: 4px;
+  transition: border 250ms linear;
+}
+
+.advantages-icon {
+  fill: currentColor;
+  transition: color 250ms linear;
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+  }
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+}
